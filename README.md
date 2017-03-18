@@ -18,6 +18,6 @@ Programming language: LabVIEW, C/C++
 # Images and Videos
 ![image](https://raw.githubusercontent.com/hoopwoop/Learning-Quadruped/master/screenshot/DSC_0939.JPG)
 ![image](https://raw.githubusercontent.com/hoopwoop/Learning-Quadruped/master/screenshot/DSC_0937.JPG)
-Training video: https://youtu.be/kuUJYHtss8g<br\>
-Greedy policy video1: https://youtu.be/JMkuRrtGs7I<br\>
-Greedy policy video2: https://youtu.be/DVgl5wvSbNM<br\>
+Training video: https://youtu.be/kuUJYHtss8g<br/>
+Greedy policy video1: https://youtu.be/JMkuRrtGs7I<br/>
+Greedy policy video2: https://youtu.be/DVgl5wvSbNM<br/>
