@@ -1,7 +1,0 @@
-*20151116 version
-*Reference: Neural reinforcement learning controllers for a real robot application
-*LabVIEW 2013 or newer
-*Toolkit required
-1. OpenG
-2. Super Simple Neural Network_2.1
-3. Makerhub_linx
