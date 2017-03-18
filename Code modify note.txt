@@ -1,0 +1,31 @@
+20151103
+1. Data set change to:"Pitch, Roll, Action"
+2. Read sensor 30ms 50 times for reading to stable
+3. NN setting set to 3input, 1output 
+4. Intend to change the system mechanism,
+so the initial pulse width setting has changed 
+5. Action set should change to delta pulse? Then how to avoid pulse exceed limit?
+
+20151104
+1. Add Pulse into state set
+2. Set the action to be delta pulse:+100,+50,+0,-50,-100
+3. add pulse limiter
+
+20151109
+1. Using s' to replace s in the minbSk calculation
+2. Interval between capture state and action conduct is set to 600ms
+3. Modified: Using scaled Q after running calculating response(SSNN).vi,
+so cost can have effective influence.
+4. Set max expoch to 600
+Seems like first succseful learning is achieved!!!(weight:20151109_3 to -8)
+
+20151112
+1. decouple the initial weights from selection
+2. set all vi in SSNN public access
+3. cancel scaling output
+4. use collected samples to get scaling factor instead random set
+5. add reach desired state criteria to stop at initial collecting
+Succesful learning achieved!!!(20151112_5 to 0)
+
+20151116
+1. Make actions limited when encounter boundary pulse with fuzzy boundary

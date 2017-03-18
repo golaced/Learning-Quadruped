@@ -1,0 +1,2 @@
+1. http://www.instructables.com/id/Guide-to-gyro-and-accelerometer-with-Arduino-inclu/
+2. http://forum.arduino.cc/index.php?topic=146042.0

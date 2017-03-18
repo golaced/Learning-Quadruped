@@ -1,0 +1,2 @@
+Procedure
+randomly collect 200 samples-initial weights-learn data 1st-learn data 2nd
